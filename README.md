@@ -1,44 +1,48 @@
 ## [Shop Archives](https://dtacat.github.io/Collectibles/)
 ![Logo (38)](https://github.com/DTACat/DTACat/assets/141873540/e2c14c9f-45a3-4c1a-8da8-9f8ecb9b5833)
 
-### [Shop Archives](https://dtacat.github.io/Collectibles/) is a website that list (almost) every [Discord](https://discord.com) Collectible all the way back from 2022 to Now!
-
-![Logo (40)](https://github.com/DTACat/DTACat/assets/141873540/df299036-463e-4603-9ff8-6f6958103cbf)
-
 join discord now https://discord.gg/Mcwh7hGcWb
 
-# Credits
+# Snippets
 
-### Here is a list of people who have helped me make this site or I have found info about the Discord shop on their socials
+## DevTools
 
-## Old Collectibles:
+### Gives you permission to use DevTools
 
-# [FireGlitch64](https://github.com/FireGlitch64)
+![image](https://github.com/TrellTrell/Shop-Archive-Snippets/assets/149860492/cca2ab9d-f98c-41ff-837b-ba9e985163f2)
 
-# [singestheos](https://discord.com/users/397700120638128151)
+```
+let tools = document.getElementById('dev-tools');
+let button = document.getElementById('devtools-button');
+let button_ = document.getElementById('devtools-button-real');
 
-## SKU ID:
+if (tools.classList.contains('hidden')) {
+    tools.classList.remove('hidden');
+} else {
+    tools.classList.add('hidden');
+}
 
-# [Happy Enderman](https://github.com/happyendermangit)
+if (button.classList.contains('hidden')) {
+    button.classList.remove('hidden');
+} else {
+    button.classList.add('hidden');
+}
 
-https://collectibles.happyenderman.com/
+if (button.classList.contains('server-button-blue')) {
+    button.classList.remove('server-button-blue');
+} else {
+    button.classList.add('server-button-blue');
+}
 
-## Shop Colors:
+if (button_.classList.contains('hidden')) {
+    button_.classList.remove('hidden');
+} else {
+    button_.classList.add('hidden');
+}
 
-# [No Text To Speech](https://youtube.com/@NoTextToSpeech)
-
-https://www.youtube.com/watch?v=n8jVhuyaeJg
-
-https://www.youtube.com/watch?v=GfQYj15LKCA
-
-# [Adrie Therin](https://www.youtube.com/@AdrieTherin)
-
-https://www.youtube.com/watch?v=2jKYMggl0jw
-
-# [Yeet Chris](https://www.youtube.com/@YeetChris)
-
-https://www.youtube.com/watch?v=S_X8QhvhZjw
-
-# [TroubleChute](https://www.youtube.com/@TroubleChute)
-
-https://www.youtube.com/watch?v=L2RWOvKmvWg
+if (button_.classList.contains('server-button-blue')) {
+    button_.classList.remove('server-button-blue');
+} else {
+    button_.classList.add('server-button-blue');
+}
+```
