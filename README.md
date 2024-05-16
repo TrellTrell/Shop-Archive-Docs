@@ -8,7 +8,7 @@ join discord now https://discord.gg/Mcwh7hGcWb
 
 ![image](https://github.com/TrellTrell/Shop-Archive-Snippets/assets/149860492/cca2ab9d-f98c-41ff-837b-ba9e985163f2)
 
-```
+```js
 let tools = document.getElementById('dev-tools');
 let button = document.getElementById('devtools-button');
 let button_ = document.getElementById('devtools-button-real');
