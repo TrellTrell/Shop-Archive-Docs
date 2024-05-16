@@ -1,4 +1,4 @@
-## [Shop Archives](https://dtacat.github.io/Collectibles/) Snippets
+# [Shop Archives](https://dtacat.github.io/Collectibles/) Snippets
 
 join discord now https://discord.gg/Mcwh7hGcWb
 
