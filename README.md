@@ -13,8 +13,8 @@ join discord now https://discord.gg/Mcwh7hGcWb
 
 ```
 let tools = document.getElementById('dev-tools');
-let button = document.getElementById('settins-button');
-let button_ = document.getElementById('devtools-button');
+let button = document.getElementById('devtools-button');
+let button_ = document.getElementById('devtools-button-real');
 
 if (tools.classList.contains('hidden')) {
     tools.classList.remove('hidden');
