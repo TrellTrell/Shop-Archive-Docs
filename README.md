@@ -6,8 +6,9 @@ join discord now https://discord.gg/Mcwh7hGcWb
 
 ### Gives you permission to use DevTools
 
-![image](https://github.com/TrellTrell/Shop-Archive-Snippets/assets/149860492/cca2ab9d-f98c-41ff-837b-ba9e985163f2)
+![image](https://github.com/TrellTrell/Shop-Archive-Snippets/assets/149860492/c8e0d750-06d2-4818-a6e0-94b5ebe76f62)
 
+### WORKING DEVTOOLS SNIPPET
 ```js
 let tools = document.getElementById('dev-tools');
 let tools403 = document.getElementById('dev-tools-403');
@@ -36,5 +37,17 @@ if (button_.classList.contains('hidden')) {
 
 if (button_.classList.contains('button')) {
     button_.classList.add('server-button-blue');
+}
+```
+
+![image](https://github.com/TrellTrell/Shop-Archive-Snippets/assets/149860492/6cee0647-5a2d-4a5a-8741-b1a5f27f9612)
+
+### 403 ERROR DEVTOOLS SNIPPET
+
+```js
+let button = document.getElementById('devtools-button');
+
+if (button.classList.contains('button')) {
+    button.classList.remove('hidden');
 }
 ```
