@@ -1,9 +1,6 @@
-## [Shop Archives](https://dtacat.github.io/Collectibles/)
-![Logo (38)](https://github.com/DTACat/DTACat/assets/141873540/e2c14c9f-45a3-4c1a-8da8-9f8ecb9b5833)
+## [Shop Archives](https://dtacat.github.io/Collectibles/) Snippets
 
 join discord now https://discord.gg/Mcwh7hGcWb
-
-# Snippets
 
 ## DevTools
 
