@@ -8,6 +8,12 @@ join discord now https://discord.gg/Mcwh7hGcWb
 
 ![image](https://github.com/TrellTrell/Shop-Archive-Snippets/assets/149860492/c8e0d750-06d2-4818-a6e0-94b5ebe76f62)
 
+### QUICK DEVTOOLS TOGGLE
+
+```js
+toggleDevTools()
+```
+
 ### WORKING DEVTOOLS SNIPPET
 ```js
 let tools = document.getElementById('dev-tools');
