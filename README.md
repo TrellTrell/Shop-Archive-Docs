@@ -1,70 +1,21 @@
-# [Shop Archives](https://dtacat.github.io/Collectibles/) Snippets
+# [Shop Archives](https://yapper.shop/) Snippets
 
-## Works on shop14.2
-You can find the Shop Archives version in the settings menu.
+## Works on [Dev](https://dev.yapper.shop/) only
 
-join discord now https://discord.gg/Mcwh7hGcWb
+### Open your console by pressing f12
+![image](https://github.com/user-attachments/assets/095301fa-ff83-4b3e-b567-7f56383deffe)
 
-## Dev Mode
-
-![image](https://github.com/TrellTrell/Shop-Archive-Snippets/assets/149860492/03add335-0f4d-402c-8167-f6bdd1081a98)
-
-### DEV MODE
+### Paste this snippet
 ```js
-dev()
+localStorage.dev = 'true';
 ```
+![image](https://github.com/user-attachments/assets/c8b7ebf7-cd79-40cf-b379-e01d5e259d7a)
 
-## ~~DevTools~~
-Included in the snippet above.
+### Refresh the page
+![image](https://github.com/user-attachments/assets/30992e95-67cc-46ed-8f7b-bad966ceff0f)
 
-### ~~Gives you permission to use DevTools~~
+### You should see a dev tools button
+![image](https://github.com/user-attachments/assets/c8504124-c02b-4d40-b420-c18fe5954e72)
 
-![image](https://github.com/TrellTrell/Shop-Archive-Snippets/assets/149860492/6cee0647-5a2d-4a5a-8741-b1a5f27f9612)
-
-### 403 ERROR DEVTOOLS SNIPPET
-
-```js
-let button = document.getElementById('devtools-button'); button.classList.remove('hidden');
-```
-
-# Anything below this point either does not work or is outdated
-
-![image](https://github.com/TrellTrell/Shop-Archive-Snippets/assets/149860492/c8e0d750-06d2-4818-a6e0-94b5ebe76f62)
-
-### ~~QUICK DEVTOOLS TOGGLE~~
-
-```js
-toggleDevTools()
-```
-
-### ~~WORKING DEVTOOLS SNIPPET~~
-```js
-let tools = document.getElementById('dev-tools');
-let tools403 = document.getElementById('dev-tools-403');
-let button = document.getElementById('devtools-button');
-let button_ = document.getElementById('devtools-button-real');
-
-if (tools.classList.contains('hidden')) {
-    tools.classList.remove('hidden');
-}
-
-if (tools403.classList.contains('left-sidebar')) {
-    tools403.classList.add('hidden');
-}
-
-if (button.classList.contains('button')) {
-    button.classList.add('hidden');
-}
-
-if (button.classList.contains('server-button-blue')) {
-    button.classList.remove('server-button-blue');
-}
-
-if (button_.classList.contains('hidden')) {
-    button_.classList.remove('hidden');
-}
-
-if (button_.classList.contains('button')) {
-    button_.classList.add('server-button-blue');
-}
-```
+### Click it and see dev tools
+![image](https://github.com/user-attachments/assets/135e556d-62c1-47e5-a379-cc039a81a27b)
