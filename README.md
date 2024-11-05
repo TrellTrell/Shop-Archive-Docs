@@ -9,9 +9,6 @@ dev()
 ```
 ![image](https://github.com/user-attachments/assets/1db89161-d75d-435f-8e75-681483e15307)
 
-### Refresh the page
-![image](https://github.com/user-attachments/assets/30992e95-67cc-46ed-8f7b-bad966ceff0f)
-
 ### You should see a dev tools button
 ![image](https://github.com/user-attachments/assets/008b41c4-5255-470e-bdce-254dc545f866)
 
