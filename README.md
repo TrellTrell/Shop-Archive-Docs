@@ -1,16 +1,57 @@
-# [Shop Archives](https://yapper.shop/) Snippets
+# Unofficial [Shop Archives](https://yapper.shop/) Docs
 
-### Open your console by pressing f12
-![image](https://github.com/user-attachments/assets/095301fa-ff83-4b3e-b567-7f56383deffe)
+## API
 
-### Paste this snippet
-```js
-dev()
-```
-![image](https://github.com/user-attachments/assets/1db89161-d75d-435f-8e75-681483e15307)
+Base URL
 
-### You should see a dev tools button
-![image](https://github.com/user-attachments/assets/008b41c4-5255-470e-bdce-254dc545f866)
+` https://shop-archives-api.vercel.app/api `
 
-### Click it and see dev tools
-![image](https://github.com/user-attachments/assets/ef0cd74b-0610-477e-8aad-4f1bd0503f56)
+| Version | Status |
+| --- | --- |
+| 2 | Available |
+| 1 | Discontinued |
+
+**API Token**
+
+` token: token `
+
+**API Password**
+
+Example API Password
+
+` password: 3pq3ci2tnuleze9y93c1hhq5typsdganyyllnfut1t18n9ghrzkfxp3zze6jfanind74ye3bgfwmyyi4qwuzidnw5eujurqg8vdu `
+
+| Long | Short |
+| --- | --- |
+| Requires API Password | -p |
+
+**Endpoints:**
+1. collectibles-shop
+  - https://shop-archives-api.vercel.app/api/collectibles-shop
+  - **params:**
+    - tab = home / shop / orbs / leaks / consumables / miscellaneous / pplus-home -p / pplus -p
+    - has-leaks = true
+    - is-test-fetch = true -p
+    - include-no-sku-items = true
+    - include-unpublished = true -p
+
+| Endpoint | Status |
+| --- | --- |
+| /collectibles-shop | 400 | 
+| /collectibles-shop?tab=home | 200 | 
+| /collectibles-shop?tab=pplus | 403 | 
+| /collectibles-shop?tab=home&include-unpublished=true | 403 | 
+| /collectibles-shop?tab=home&is-test-fetch=true | 403 | 
+
+2. profile-effects
+  - https://shop-archives-api.vercel.app/api/profile-effects
+  - **params:**
+    - tab = discord / pplus
+    - is-test-fetch = true -p
+
+| Endpoint | Status |
+| --- | --- |
+| /profile-effects | 400 | 
+| /profile-effects?tab=discord | 200 | 
+| /profile-effects?tab=discord&is-test-fetch=true | 403 | 
+ 
