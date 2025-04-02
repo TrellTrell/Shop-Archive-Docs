@@ -29,7 +29,7 @@ Example API Password
 1. collectibles-shop
   - https://shop-archives-api.vercel.app/api/collectibles-shop
   - **params:**
-    - tab = home / shop / orbs / leaks / consumables / miscellaneous / pplus-home -p / pplus -p
+    - tab = home / shop / orbs / leaks / nameplates / consumables / miscellaneous / pplus-home -p / pplus -p
     - has-leaks = true
     - is-test-fetch = true -p
     - include-no-sku-items = true
