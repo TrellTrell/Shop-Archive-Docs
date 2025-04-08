@@ -19,7 +19,7 @@ Base URL
 
 Example API Password
 
-` password: 3pq3ci2tnuleze9y93c1hhq5typsdganyyllnfut1t18n9ghrzkfxp3zze6jfanind74ye3bgfwmyyi4qwuzidnw5eujurqg8vdu `
+` password: 3pq3ci2tnuleze9y93c1hhq5typsdganyyllnfut1t18n9ghrzkfxp3 `
 
 | Long | Short |
 | --- | --- |
@@ -29,7 +29,7 @@ Example API Password
 1. collectibles-shop
   - https://shop-archives-api.vercel.app/api/collectibles-shop
   - **params:**
-    - tab = home / shop / orbs / leaks / nameplates / consumables / miscellaneous / pplus-home -p / pplus -p
+    - tab = home / shop / orbs / leaks / nameplates / consumables / miscellaneous / marketing / pplus-home -p / pplus -p
     - has-leaks = true
     - is-test-fetch = true -p
     - include-no-sku-items = true
